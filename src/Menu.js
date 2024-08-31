@@ -77,6 +77,7 @@ const styles = {
         alignItems: "center",
         marginBottom: "1rem",
         padding: "10px",
+        backgroundColor: "#ead7db",
         border: "1px solid #dddddd",
         borderRadius: "5px",
         width: "50%",

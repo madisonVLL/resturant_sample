@@ -3,17 +3,19 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer style={styles.footer}>
-            <p>&copy; 2024 Aloha Eats. All rights reserved.</p>
+            <p>&copy; 2024 Passion T Plates. All rights reserved.</p>
         </footer>
     );
 }
 
 const styles = {
     footer: {
-        backgroundColor: '#f4a261', /* Sandy color */
+        backgroundColor: '#262626',
         padding: '15px',
         textAlign: 'center',
         marginTop: 'auto',
+        color: "#ead7db",
+        boxShadow: "0px -40x 20px -20px #262626"
     },
 }
 

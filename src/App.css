@@ -2,8 +2,10 @@ body, html, #root {
   height: 100%;
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #f7ede2; /* Light beige */
+  background-image: url("/src/images/pastel_gold.jpg");
+  background-color: #ead7db; /* Light pink */
   color: #264653; /* Deep greenish-blue */
+  font-family: "Baskervville", 'Times New Roman', Times, serif, sans-serif;
 }
 
 .App {

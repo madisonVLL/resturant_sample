@@ -3,8 +3,24 @@ import React from 'react';
 const AboutUs = () => {
     return (
         <div style={styles.container}>
-            <h2 style={styles.header}>About Us</h2>
-            <p style={styles.text}>Aloha Eats is a family-owned Hawaiian restaurant bringing the spirit of the islands to the mainland. Enjoy authentic dishes prepared with love and the freshest ingredients.</p>
+            <h2 style={styles.header}><i>About Us</i></h2>
+            <p style={styles.text}>     Welcome to Passion T Plates, where culinary
+                 artistry meets passion and tradition. As a proud Black 
+                 woman-owned establishment, we are committed to offering an 
+                 upscale dining experience that celebrates the rich diversity of
+                  flavors in every bite. Our menu is a carefully crafted fusion 
+                  of comfort food favorites and gourmet innovation, featuring 
+                  dishes like our signature cheesesteaks, juicy burgers, 
+                  succulent fish sandwiches, tender lamb chops, and perfectly 
+                  seasoned chicken wings.<br></br><br></br>At Passion T Plates, we 
+                  believe in the power of food to bring people together. 
+                  Our dishes are prepared with love, using the freshest 
+                  ingredients and bold flavors that pay homage to our heritage 
+                  while pushing the boundaries of modern cuisine. Whether you're
+                   here for a casual meal or a special occasion, we strive to 
+                   make every visit a memorable one.<br></br><br></br>Come dine with us 
+                   and experience the vibrant energy, warmth, and soul of 
+                   Passion T Plates. We can't wait to serve you!</p>
         </div>
     );
 }
@@ -21,6 +37,7 @@ const styles = {
     },
     text: {
         fontSize: '18px',
+        textAlign: "left"
     }
 }
 

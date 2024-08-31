@@ -3,8 +3,8 @@ import React from 'react';
 const Home = () => {
     return (
         <div style={styles.container}>
-            <h2 style={styles.header}>Welcome to Aloha Eats</h2>
-            <p style={styles.text}>Experience the taste of Hawaii right here on the beach!</p>
+            <h2 style={styles.header}>Welcome to Passion T Plates</h2>
+            <p style={styles.text}></p>
         </div>
     );
 }
