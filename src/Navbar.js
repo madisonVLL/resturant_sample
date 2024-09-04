@@ -24,6 +24,7 @@ const Navbar = () => {
                 <Link to="/reviews" style={styles.link}><i>Reviews</i></Link>
                 <Link to="/order" style={styles.link}><i>Order</i></Link>
                 <Link to="/hours" style={styles.link}><i>Hours</i></Link>
+                <a  style={styles.link} href="https://form.jotform.com/220939464038158?fbclid=IwY2xjawFEpWZleHRuA2FlbQIxMQABHRKb3QPGlfoDYvfjPscXbykgdFPW9P_w2KD8CSMTD_XD4jreEjgkkgvSHw_aem_eI5uIR-nPI5tGCe4Q896rQ" target='_blank'><i>Catering Form</i></a>
                 <Link to="/about-us" style={styles.link}><i>About Us</i></Link>
             </div>
         </nav>
@@ -38,8 +39,9 @@ const styles = {
         justifyContent: 'space-between',
         alignItems: 'center',
         color: "#ff48a5",
-        boxShadow: "0 20px 40px rgba(38,38,38,.7)"
-        
+        boxShadow: "0 20px 40px rgba(38,38,38,.7)",
+        top: "0",
+        position: "sticky", 
     },
     links: {
         display: 'flex',

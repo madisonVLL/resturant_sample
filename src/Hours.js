@@ -23,7 +23,7 @@ const Hours = () => {
                     400 E 69th St<br></br>Chicago, IL 60637
                     </p>
                     <p><FontAwesomeIcon icon={faClock} />   12pm-7pm, Thurs-Mon</p>
-                    <a href="tel:+13125362166" title="phone number"><FontAwesomeIcon icon={faPhone} style={styles.icon} className='icon'/></a>
+                    <a href="tel:+17737893588" title="phone number"><FontAwesomeIcon icon={faPhone} style={styles.icon} className='icon'/></a>
                     <a href="mailto: passionteecatering@yahoo.com" title='email'><FontAwesomeIcon icon={faEnvelope} style={styles.icon} className='icon'/></a>
                 </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.7316330582175!2d-87.61778068854312!3d41.769443572090566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e28d3c00f0219%3A0x4c93fd240cda1851!2s400%20E%2069th%20St%2C%20Chicago%2C%20IL%2060637!5e0!3m2!1sen!2sus!4v1724814607964!5m2!1sen!2sus" title="69th and King Drive Location" min_width="400" min_height="400" width="500" height="500" style={{border:0}} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>

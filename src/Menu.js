@@ -108,21 +108,22 @@ const MenuItem = ({item}) => {
 }
 
 
-const MenuCategory = ({category}) => {
+const MenuCategory = ({category, catItems}) => {
     const [fullMenuItems] = useState(fullmenu)
-    for (const [key, value] of Object.entries(fullMenuItems)) {
-        console.log(value)
-
-        return (
-            <div class="category">
-                <p style={{fontSize: "larger"}}><b>{key}</b></p>
-            </div>
-        )
-    }
+    return (
+        <div className="menu">
+            <p style={styles.menuCategoryTitle}>{category}</p>
+          {catItems.map(item => (
+            <MenuItem key={item.id} item={item}/>
+          ))}
+        </div>
+      );
+    
 }
 
 const Menu = () => {
     const [fullMenuItems] = useState(fullmenu)
+    const categories = []
     for (const [key, value] of Object.entries(fullMenuItems)) {
         return (
             <div className="menu">
