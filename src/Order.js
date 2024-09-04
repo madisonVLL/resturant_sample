@@ -18,7 +18,6 @@ const Order = () => {
                         <a href="https://www.ubereats.com/store/passion-t/6ZEHz3RXTaCWhoqvERqwXQ?srsltid=AfmBOoo_C_dyJ7LRTDxFKxhigEM9MLIRB6bWwfmcExj7Ogdwt0dehUjT" target='_blank' rel="noreferrer"><img src={uberEats} alt={"order uber eats"} style={styles.logo}/></a>
                         <a href="https://www.doordash.com/store/passion-t-chicago-24802938/?srsltid=AfmBOoqdiwgzOgNB15wIriBHpYM768sVRXOlMODqel5VpPM1F_wZFk_9" target='_blank' rel="noreferrer"><img src={doordash} alt={"order doordash"} style={styles.logo}/></a>
                         <a href="https://cashdrop.com/passion-t/menu" target='_blank' rel="noreferrer"><img src={cashdrop} alt={"order cashdrop"} style={styles.logo}/></a>
-
                     </div>
                 </div>
                 <div>

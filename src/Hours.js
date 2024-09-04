@@ -6,7 +6,7 @@ const Hours = () => {
     return (
         <div>
             <div style={{display: 'inline-flex', alignItems: 'center', textAlign: "center", padding: "1em"}}>
-                <div style={{padding: "1em"}}>
+                <div style={{padding: "1em",  minWidth: "300px"}}>
                 <p><b>Trumbuli & 79th St.</b></p>
                 <p>3412 W 79th St 
                 <br></br>Chicago, IL 60652</p>

@@ -1,8 +1,7 @@
 body, html, #root {
   height: 100%;
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-image: url("/src/images/pastel_gold.jpg");
+  background-image: url("/src/images/pink_clouds.jpg");
   background-color: #ead7db; /* Light pink */
   color: #264653; /* Deep greenish-blue */
   font-family: "Baskervville", 'Times New Roman', Times, serif, sans-serif;

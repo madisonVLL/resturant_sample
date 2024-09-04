@@ -3,7 +3,8 @@ import React from 'react';
 const Home = () => {
     return (
         <div style={styles.container}>
-            <h2 style={styles.header}>Welcome to Passion T Plates</h2>
+            
+            <h1 style={styles.header}>Welcome to Passion T Plates</h1>
             <p style={styles.text}></p>
         </div>
     );
