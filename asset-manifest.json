@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/resturant_sample/static/css/main.f3561c3b.css",
+    "main.js": "/resturant_sample/static/js/main.dff6da1f.js",
+    "static/js/453.034effc1.chunk.js": "/resturant_sample/static/js/453.034effc1.chunk.js",
+    "static/media/jw.jpeg": "/resturant_sample/static/media/jw.0f12c72f872862857878.jpeg",
+    "static/media/salmon_salad.png": "/resturant_sample/static/media/salmon_salad.d2f40fc7e2baf9d028e5.png",
+    "static/media/chicken_pita.png": "/resturant_sample/static/media/chicken_pita.0be00519c642e91e2062.png",
+    "static/media/salmon_wrap.png": "/resturant_sample/static/media/salmon_wrap.fdd46bdc00ba13001506.png",
+    "static/media/wings.png": "/resturant_sample/static/media/wings.89b95ca33fef99a0f925.png",
+    "static/media/salmon_rice.png": "/resturant_sample/static/media/salmon_rice.f75b9c4abfddd51df3de.png",
+    "static/media/big_ben.png": "/resturant_sample/static/media/big_ben.5ba3ce9eeb57332bba39.png",
+    "static/media/passion_punch.png": "/resturant_sample/static/media/passion_punch.0a227bc0d8fbadcd49a8.png",
+    "static/media/combination_rice.png": "/resturant_sample/static/media/combination_rice.4662c07d3f23e21e5a8c.png",
+    "static/media/salmon_sticks.png": "/resturant_sample/static/media/salmon_sticks.eaae931b4dfc03fc0cc2.png",
+    "static/media/chb.jpeg": "/resturant_sample/static/media/chb.9ccb467c4ab586161c1b.jpeg",
+    "static/media/founder.png": "/resturant_sample/static/media/founder.37f7225d4019f04ec8e1.png",
+    "static/media/philly.png": "/resturant_sample/static/media/philly.93b5703e486923482c97.png",
+    "static/media/no_background.png": "/resturant_sample/static/media/no_background.983ac359c2c30234cc5f.png",
+    "static/media/sb.jpeg": "/resturant_sample/static/media/sb.3434a65112a09675bc5d.jpeg",
+    "static/media/uber_eats.png": "/resturant_sample/static/media/uber_eats.51acb34fdaf9250c83d7.png",
+    "static/media/cashdrop.png": "/resturant_sample/static/media/cashdrop.d4b3f296e89733844868.png",
+    "static/media/pink_clouds.jpg": "/resturant_sample/static/media/pink_clouds.5677da9becfaac9feb83.jpg",
+    "static/media/grubhub.png": "/resturant_sample/static/media/grubhub.838e5a1c3695810ac426.png",
+    "static/media/doordash.png": "/resturant_sample/static/media/doordash.2de85ae4c40330053c61.png",
+    "index.html": "/resturant_sample/index.html",
+    "main.f3561c3b.css.map": "/resturant_sample/static/css/main.f3561c3b.css.map",
+    "main.dff6da1f.js.map": "/resturant_sample/static/js/main.dff6da1f.js.map",
+    "453.034effc1.chunk.js.map": "/resturant_sample/static/js/453.034effc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3561c3b.css",
+    "static/js/main.dff6da1f.js"
+  ]
+}
