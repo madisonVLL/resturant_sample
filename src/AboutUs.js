@@ -1,4 +1,5 @@
 import React from 'react';
+import PhotoGallery from './Gallery';
 
 const AboutUs = () => {
     return (
@@ -21,6 +22,8 @@ const AboutUs = () => {
                    make every visit a memorable one.<br></br><br></br>Come dine with us 
                    and experience the vibrant energy, warmth, and soul of 
                    Passion T Plates. We can't wait to serve you!</p>
+                <br></br>
+                <PhotoGallery />
         </div>
     );
 }

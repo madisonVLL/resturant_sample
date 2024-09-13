@@ -41,7 +41,9 @@ const styles = {
         color: "#ff48a5",
         boxShadow: "0 20px 40px rgba(38,38,38,.7)",
         top: "0",
-        position: "sticky", 
+        position: "sticky",
+        zIndex:"999",
+        
     },
     links: {
         display: 'flex',

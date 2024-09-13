@@ -22,6 +22,12 @@ const Order = () => {
                 </div>
                 <div>
                     <p>400 E 69th St<br></br>Pickup & Delivery</p>
+                    <div>
+                        <a href="https://www.instagram.com/passiontplates/?hl=en" target='_blank' rel="noreferrer"><img src={grubhub} alt={"order grubhub"} style={styles.logo}/></a>
+                        <a href="https://www.instagram.com/passiontplates/?hl=en" target='_blank' rel="noreferrer"><img src={uberEats} alt={"order uber eats"} style={styles.logo}/></a>
+                        <a href="https://www.instagram.com/passiontplates/?hl=en" target='_blank' rel="noreferrer"><img src={doordash} alt={"order doordash"} style={styles.logo}/></a>
+                        <a href="https://www.instagram.com/passiontplates/?hl=en" target='_blank' rel="noreferrer"><img src={cashdrop} alt={"order cashdrop"} style={styles.logo}/></a>
+                    </div>
 
                 </div>
             </div>

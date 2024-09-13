@@ -9,6 +9,16 @@ import cashdrop from './images/delivery_logos/cashdrop.png';
 import doordash from './images/delivery_logos/doordash.png';
 import uberEats from './images/delivery_logos/uber_eats.png';
 import grubhub from './images/delivery_logos/grubhub.png';
+import big_ben from "./images/menu_item/big_ben.png";
+import chicken_pita from "./images/menu_item/chicken_pita.png";
+import passion_punch from "./images/menu_item/passion_punch.png";
+import salmon_sticks from "./images/menu_item/salmon_sticks.png";
+import philly from "./images/menu_item/philly.png"
+import salmon_salad from "./images/menu_item/salmon_salad.png";
+import salmon_wrap from "./images/menu_item/salmon_wrap.png";
+import salmon_rice from "./images/menu_item/salmon_rice.png";
+import wings from "./images/menu_item/wings.png";
+import combo_rice from "./images/menu_item/combination_rice.png";
 
 
 function genId() {
@@ -19,7 +29,7 @@ function genId() {
 }
 
 const passiontmenu = [
-    {id: genId(), item: "Jerk Chicken Wrap w/ Chips", description: "Lettuce, tomatoes, red onions, cheese, jerk ranch", price: "11.00", image: jerk_wrap},
+    {id: genId(), item: "Jerk Chicken Wrap w/ Chips", description: "Lettuce, tomatoes, red onions, cheese, jerk ranch", price: "11.00", image: logo},
     {id: genId(), item: "Crab Fried Rice", description: "Contains Mushrooms", price: "21.00", image: logo},
     {id: genId(), item: "Salmon Bites", description: "Crispy, southern fried salmon bites with a side of remoulade sauce", price: "13.00", image: salmon_bites},
     {id: genId(), item: "Chicken Hibachi Burrito", description: "Hibachi fried rice and veggies, meat choice, yum yum sauce packed into a burrito", price: "15.00", image: chicken_hibachi_burrito}
@@ -27,23 +37,23 @@ const passiontmenu = [
 
 const fullmenu = {
     "Signature Sandwiches": [{id: genId(), item: "The P Sandwich", description: "Italian beef melt, mild ghirardelli peppers, cheese, and mayo.", price: "14.99", image: jerk_wrap},
-        {id: genId(), item: "Big Ben Sandwich", description: "Fried catfish, lettuce, tomato, and house-made sauce.", price: "12.99", image: jerk_wrap},
-        {id: genId(), item: "Chicken Pita", description: "Grilled chicken pita served with cucumbers, red onions, and our signature sauce.", price: "12.99", image: jerk_wrap},
-        {id: genId(), item: "Big Pun Sandwich", description: "Hand Patted Beef Burger and Gyro meat melt. Mild sauce and Tzatziki sauce Comes With Fries Or Chips (Plain Lays)", price: "15.99", image: jerk_wrap}
+        {id: genId(), item: "Big Ben Sandwich", description: "Fried catfish, lettuce, tomato, and house-made sauce.", price: "12.99", image: big_ben},
+        {id: genId(), item: "Chicken Pita", description: "Grilled chicken pita served with cucumbers, red onions, and our signature sauce.", price: "12.99", image: chicken_pita},
+        {id: genId(), item: "Big Pun Sandwich", description: "Hand Patted Beef Burger and Gyro meat melt. Mild sauce and Tzatziki sauce Comes With Fries Or Chips (Plain Lays)", price: "15.99", image: logo}
     ],
     "Philly Cheesesteak": [
         {id: genId(), item: "Salmon Cheesesteak", description: "Bell peppers, onions, mushrooms, mozzarella, and house-made mayo. Avaliable in either jerk or original flavor.", price: "15.00", image: logo},
         {id: genId(), item: "Veggie Cheesesteak", description: "Bell peppers, onions, mushrooms, mozzarella, and house-made mayo. Avaliable in either jerk or original flavor.", price: "15.00", image: logo},
-        {id: genId(), item: "Chicken Cheesesteak", description: "Bell peppers, onions, mushrooms, mozzarella, and house-made mayo. Avaliable in either jerk or original flavor.", price: "13.00", image: logo}
+        {id: genId(), item: "Chicken Cheesesteak", description: "Bell peppers, onions, mushrooms, mozzarella, and house-made mayo. Avaliable in either jerk or original flavor.", price: "13.00", image: philly}
     ], 
     "Fried Wings & Fish": [
-        {id: genId(), item: "Fried Chicken Wings", description: "Crispy, southern fried chicken wings offered in 6, 10, and 20 count varieties.", price: "Varies", image: logo},
+        {id: genId(), item: "Fried Chicken Wings", description: "Crispy, southern fried chicken wings offered in 6, 10, and 20 count varieties.", price: "Varies", image: wings},
         {id: genId(), item: "Fried Catfish", description: "Crispy, southern fried catfish offered in 6, 10, and 20 count varieties.", price: "Varies", image: logo},
     ],
     "Salads & Wraps" : [
-        {id: genId(), item: "Salmon", description: "Chips included with wraps and salad available garden or Caesar. Served with mixed greens, lettuce, tomatoes, red onions, cucumber, and ranch. Salmon is avaible in jerk or grilled varieties.", price: "$13.99", image: logo},
-        {id: genId(), item: "Catfish", description: "Chips included with wraps and salad available garden or Caesar. Served with mixed greens, lettuce, tomatoes, red onions, cucumber, and ranch. Catfish comes either fried or blackened.", price: "$12.99", image: logo},
-        {id: genId(), item: "Chicken", description: "Chips included with wraps and salad available garden or Caesar. Served with mixed greens, lettuce, tomatoes, red onions, cucumber, and ranch. Chicken is avaible in jerk or grilled varieties.", price: "$11.99", image: logo}
+        {id: genId(), item: "Salmon", description: "Chips included with wraps and salad available garden or Caesar. Served with mixed greens, lettuce, tomatoes, red onions, cucumber, and ranch. Salmon is avaible in jerk or grilled varieties.", price: "13.99", image: salmon_wrap},
+        {id: genId(), item: "Catfish", description: "Chips included with wraps and salad available garden or Caesar. Served with mixed greens, lettuce, tomatoes, red onions, cucumber, and ranch. Catfish comes either fried or blackened.", price: "12.99", image: logo},
+        {id: genId(), item: "Chicken", description: "Chips included with wraps and salad available garden or Caesar. Served with mixed greens, lettuce, tomatoes, red onions, cucumber, and ranch. Chicken is avaible in jerk or grilled varieties.", price: "11.99", image: logo}
     ],
     "Hibachi Burritos": [
         {id: genId(), item: "Chicken Hibachi Burrito", description: "Hibachi fried rice and veggies, chicken, yum yum sauce packed into a burrito", price: "15.00", image: chicken_hibachi_burrito},
@@ -51,8 +61,8 @@ const fullmenu = {
         {id: genId(), item: "Shrimp Hibachi Burrito", description: "Hibachi fried rice and veggies, shrimp, yum yum sauce packed into a burrito", price: "23.00", image: logo},
     ],
     "Passion Fried Rice": [
-        {id: genId(), item: "Salmon Fried Rice", description: "Featuring savory salmon nestled within fried rice, available in both large and small sizes.", price: "Varies", image: logo},
-        {id: genId(), item: "Combination Fried Rice", description: "Combination rice with choice of salmon, chicken or shrimp.", price: "25.00", image: logo},
+        {id: genId(), item: "Salmon Fried Rice", description: "Featuring savory salmon nestled within fried rice, available in both large and small sizes.", price: "Varies", image: salmon_rice},
+        {id: genId(), item: "Combination Fried Rice", description: "Combination rice with choice of salmon, chicken or shrimp.", price: "25.00", image: combo_rice},
         {id: genId(), item: "Shrimp Fried Rice", description: "Tender shrimp sautéed to perfection, then mingled with aromatic, fluffy rice, fried with a mix of Chinese inspired seasonings. Available in both large and small portions to satisfy your hunger.", price: "13.00", image: logo},
         {id: genId(), item: "Veggie Fried Rice", description: "A medley of assorted vegetables stir-fried with fragrant jasmine rice. Choose between a large or small portion.", price: "10.00", image: logo}
 
@@ -60,15 +70,13 @@ const fullmenu = {
     "Mains": [
         {id: genId(), item: "Salmon Bites", description: "Crispy, southern fried salmon bites with a side of remoulade sauce", price: "13.00", image: salmon_bites},
         {id: genId(), item: "Salmon Bites Meal", description: "Fried salmon bites over our fried rice.", price: "30.00", image: salmon_bites},
-        {id: genId(), item: "Salmon Sticks", description: "Grilled Salmon Sticks covered with sweet and spicy bang bang sauce.", price: "23.00", image: salmon_bites},
-        {id: genId(), item: "Lemon Butter Potato Bowl", description: "Grilled or fried fish over garlic mashed and our house made creamy lemon sauce.", price: "30.00", image: salmon_bites},
+        {id: genId(), item: "Salmon Sticks", description: "Grilled Salmon Sticks covered with sweet and spicy bang bang sauce.", price: "23.00", image: salmon_sticks},
+        {id: genId(), item: "Lemon Butter Potato Bowl", description: "Grilled or fried fish over garlic mashed and our house made creamy lemon sauce.", price: "30.00", image: logo},
     ], 
     "Drinks" : [
-        {id: genId(), item: "Passion Punch Quart", description: "32 ounces of refreshing and fruity passion punch.", price: "$6.00", image: logo},
+        {id: genId(), item: "Passion Punch Quart", description: "32 ounces of refreshing and fruity passion punch.", price: "6.00", image: passion_punch},
     ]
 }
-    
-
 
 const MenuItem = ({item}) => {
     const [enlargeImage, setEnlargeImage] = useState(false)
@@ -107,74 +115,22 @@ const MenuItem = ({item}) => {
     );
 }
 
-
-const MenuCategory = ({category, catItems}) => {
-    const [fullMenuItems] = useState(fullmenu)
-    return (
-        <div className="menu">
-            <p style={styles.menuCategoryTitle}>{category}</p>
-          {catItems.map(item => (
-            <MenuItem key={item.id} item={item}/>
-          ))}
-        </div>
-      );
-    
-}
-
 const Menu = () => {
     const [fullMenuItems] = useState(fullmenu)
     const categories = []
     for (const [key, value] of Object.entries(fullMenuItems)) {
-        return (
-            <div className="menu">
-                <p style={styles.menuCategoryTitle}>{key}</p>
-              {value.map(item => (
-                <MenuItem key={item.id} item={item}/>
-              ))}
-            </div>
-          );
+        categories.push(<div className="menu">
+            <p style={styles.menuCategoryTitle}>{key}</p>
+          {value.map(item => (
+            <MenuItem key={item.id} item={item}/>
+          ))}
+        </div>)
     }
-
-}
-
-/*
-const Menu = () => {
-    const [fullMenuItems] = useState(fullmenu)
-    for (const [key, value] of Object.entries(fullMenuItems)) {
-        return (
-            <div className="menu">
-                <p style={styles.menuCategoryTitle}>{key}</p>
-              {value.map(item => (
-                <MenuItem key={item.id} item={item}/>
-              ))}
-            </div>
-          );
-    }
-
-}
-*/
-
-
-
-
-/*
-
-const Menu = () => {
-    const [menuItems] = useState(passiontmenu);
-    const [fullMenuItems] = useState(fullmenu)
-    for (const [key, value] of Object.entries(fullMenuItems)) {
-        console.log(value)
-    }
-  
     return (
-      <div className="menu">
-        {menuItems.map(item => (
-          <MenuItem key={item.id} item={item}/>
-        ))}
-      </div>
-    );
-  };
-*/
+        categories.map((category) => <div>{category}</div>)
+      );
+
+}
 
 const styles = {
     container: {
