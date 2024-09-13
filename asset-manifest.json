@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/resturant_sample/static/css/main.f3561c3b.css",
-    "main.js": "/resturant_sample/static/js/main.dff6da1f.js",
+    "main.css": "/resturant_sample/static/css/main.8e8105ef.css",
+    "main.js": "/resturant_sample/static/js/main.727e98cc.js",
     "static/js/453.034effc1.chunk.js": "/resturant_sample/static/js/453.034effc1.chunk.js",
+    "static/media/Passion_T_1.mp4": "/resturant_sample/static/media/Passion_T_1.f323d1801ecc609b6f27.mp4",
+    "static/media/Passion_T_2.mp4": "/resturant_sample/static/media/Passion_T_2.d1d5820d4bd63ea15897.mp4",
+    "static/media/Passion_T_3.mp4": "/resturant_sample/static/media/Passion_T_3.2c6f5d0b9d6db20cb67f.mp4",
     "static/media/jw.jpeg": "/resturant_sample/static/media/jw.0f12c72f872862857878.jpeg",
     "static/media/salmon_salad.png": "/resturant_sample/static/media/salmon_salad.d2f40fc7e2baf9d028e5.png",
     "static/media/chicken_pita.png": "/resturant_sample/static/media/chicken_pita.0be00519c642e91e2062.png",
@@ -24,12 +27,12 @@
     "static/media/grubhub.png": "/resturant_sample/static/media/grubhub.838e5a1c3695810ac426.png",
     "static/media/doordash.png": "/resturant_sample/static/media/doordash.2de85ae4c40330053c61.png",
     "index.html": "/resturant_sample/index.html",
-    "main.f3561c3b.css.map": "/resturant_sample/static/css/main.f3561c3b.css.map",
-    "main.dff6da1f.js.map": "/resturant_sample/static/js/main.dff6da1f.js.map",
+    "main.8e8105ef.css.map": "/resturant_sample/static/css/main.8e8105ef.css.map",
+    "main.727e98cc.js.map": "/resturant_sample/static/js/main.727e98cc.js.map",
     "453.034effc1.chunk.js.map": "/resturant_sample/static/js/453.034effc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3561c3b.css",
-    "static/js/main.dff6da1f.js"
+    "static/css/main.8e8105ef.css",
+    "static/js/main.727e98cc.js"
   ]
 }
