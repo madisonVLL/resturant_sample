@@ -1,19 +1,18 @@
 import React from 'react';
 import { InstagramEmbed } from 'react-social-media-embed';
 import "./gallery.css"
-
-function getWindowDimensions() {
-    const { innerWidth: width, innerHeight: height } = window;
-    return {
-      width,
-      height
-    };
-  }
-  
+import video1 from "./videos/Passion_T_1.mp4"
+import video2 from "./videos/Passion_T_2.mp4"
+import video3 from "./videos/Passion_T_3.mp4"
+import HoverVideo from './VideoHover';
+import "./HoverVideo.css"
 
 /* instagram links */
 const instagramLinks = ["https://www.instagram.com/p/C3t6XMttPT3", "https://www.instagram.com/p/Ct3zdRQtBkM", "https://www.instagram.com/p/C6ymdvSrAfr"]
 
+const instagramVideos = [{id: 0, src: video1, link: instagramLinks[0]},
+{id: 0, src: video2, link: instagramLinks[1]},
+{id: 2, src: video3, link: instagramLinks[2]}]
 const Insta = () => {
     return (
         <div className="instagram-gallery">
@@ -34,11 +33,22 @@ const Insta = () => {
     )
 }
 
+const VideoGallery = () => {
+    return (
+            <div className="video-gallery">
+              {instagramVideos.map((video) => (
+                <HoverVideo key={video.id} videoSrc={video.src} />
+              ))}
+            </div>
+    )
+
+}
+
 const HomeTitle = () => {
     return (
         <div style={styles.container}>
             <h1 style={styles.header}>Welcome to Passion T Plates</h1>
-            <p style={styles.text}></p>
+            <p style={styles.tagline}>Where Heritage & Love Meets Flavor</p>
         </div>  
     )
 }
@@ -46,7 +56,7 @@ const Home = () => {
     return (
         <div>
             <HomeTitle />
-            <Insta />
+            <VideoGallery />
         </div>
     );
 }
@@ -67,7 +77,11 @@ const styles = {
         fontSize: '70px',
         marginBottom: '20px',
         marginTop: '100px',
-
+        marginBottom: "100px"
+    },
+    tagline: {
+        fontSize: "36px",
+        fontStyle: "italic"
     },
     text: {
         fontSize: '24px',
@@ -86,10 +100,4 @@ const styles = {
 
 export default Home;
 
-/*
-   <div style={styles.instagramlink}>
-                {instagramLinks.map(item => (
-                <InstagramEmbed url={item} style={{padding: "1rem"}} width={curr_width} height={600}/>
-            ))}
-        </div> 
- */
+

@@ -1,0 +1,36 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the video gallery */
+  .video-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    grid-gap: 1rem; /* Space between videos */
+    padding: 1rem;
+    justify-items: center; /* Center videos in the grid */
+  }
+  
+  /* Container for each video with hover effect */
+  .hover-video-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-video-container:hover {
+    transform: scale(1.05); /* Zoom effect */
+  }
+  
+  .hover-video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
